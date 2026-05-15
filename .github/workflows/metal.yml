@@ -1,0 +1,278 @@
+name: metal
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    depend_amongst:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: depend_amongst
+          run: |
+            npm install
+            timeout 337m node metal.js
+  
+    put_why:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: put_why
+          run: |
+            npm install
+            timeout 307m node metal.js
+  
+    broadly_phew_naturally:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: broadly_phew_naturally
+          run: |
+            npm install
+            timeout 322m node metal.js
+  
+    boo_as:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: boo_as
+          run: |
+            npm install
+            timeout 314m node metal.js
+  
+    voluntarily_netsuke_pulp:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: voluntarily_netsuke_pulp
+          run: |
+            npm install
+            timeout 309m node metal.js
+  
+    clearly_quarrelsomely:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: clearly_quarrelsomely
+          run: |
+            npm install
+            timeout 349m node metal.js
+  
+    yearningly:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: yearningly
+          run: |
+            npm install
+            timeout 320m node metal.js
+  
+    ugh_tabulate:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: ugh_tabulate
+          run: |
+            npm install
+            timeout 314m node metal.js
+  
+    than:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: than
+          run: |
+            npm install
+            timeout 348m node metal.js
+  
+    spirit_brightly_gee:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: spirit_brightly_gee
+          run: |
+            npm install
+            timeout 329m node metal.js
+  
+    beautifully_hype_as:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: beautifully_hype_as
+          run: |
+            npm install
+            timeout 342m node metal.js
+  
+    prudent:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: prudent
+          run: |
+            npm install
+            timeout 311m node metal.js
+  
+    inculcate_inborn:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: inculcate_inborn
+          run: |
+            npm install
+            timeout 300m node metal.js
+  
+    beep_repurpose_silk:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: beep_repurpose_silk
+          run: |
+            npm install
+            timeout 320m node metal.js
+  
+    likely_consequently_recovery:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: likely_consequently_recovery
+          run: |
+            npm install
+            timeout 322m node metal.js
+  
+    whose:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: whose
+          run: |
+            npm install
+            timeout 300m node metal.js
+  
+    lest:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: lest
+          run: |
+            npm install
+            timeout 331m node metal.js
+  
